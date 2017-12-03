@@ -1,0 +1,32 @@
+{
+  "name": "inversio-loader",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlarsson/inversio-loader.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlarsson/inversio-loader/issues"
+  },
+  "homepage": "https://github.com/jlarsson/inversio-loader#readme",
+  "dependencies": {
+    "invariant": "^2.2.2",
+    "inversio": "^2.0.0",
+    "klaw": "^2.1.1",
+    "minimatch": "^3.0.4",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "tap": "^11.0.0"
+  }
+}
