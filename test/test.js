@@ -13,3 +13,16 @@ tap.test('happy path', async t => {
   await container.resolve('a')
   t.pass('ok')
 })
+
+tap.test('create()', async t => {
+  let loader = require('../').create
+  let container = await
+    loader({
+      filter: '*.test-comp.js'
+    })
+    .use(require('./res/module'))
+    .load()
+
+  await container.resolve('a')
+  t.pass('ok')
+})
