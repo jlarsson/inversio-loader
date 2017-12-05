@@ -11,10 +11,10 @@ _filter_ should either be a
   - predicate as in ```path -> boolean```
   - string (glob) that will be converted to a [minimatch](https://www.npmjs.com/package/minimatch) predicate.
 
-## new Loader({pattern})
+## new Loader({pattern?})
 Construct new loader instance. If _pattern_ is specified, it will be passed as default to ```discover({cwd, pattern})```.
 
-## create({pattern}) -> Loader
+## create({pattern?}) -> Loader
 Shorthand for creating Loader instance.
 ```js
 const loader = require('inversio-loader').create
