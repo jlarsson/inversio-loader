@@ -1,6 +1,6 @@
 {
   "name": "inversio-loader",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -20,13 +20,13 @@
   },
   "homepage": "https://github.com/jlarsson/inversio-loader#readme",
   "dependencies": {
+    "invariant": "^2.2.4",
     "inversio": "^2.0.1",
     "klaw": "^3.0.0",
     "minimatch": "^3.0.4",
     "through2": "^3.0.1"
   },
   "devDependencies": {
-    "invariant": "^2.2.4",
     "tap": "^12.6.1"
   }
 }
